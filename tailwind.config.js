@@ -10,11 +10,12 @@ module.exports = {
       themes: [
         {
           light: {
-            "primary": "#ff00ff",
-            "secondary": "#ffffff",
-            "accent": "#ffffff",
-            "neutral": "#ffffff",
-            "base-100": "#ffffff",
+            "primary": "#FFB400",
+            "secondary": "#FFB400",
+            "heading": "#2B2B2B",
+            "paragraph": "#767676",
+            "base-100": "#E4E6EB",
+            "bg-100": "#FFFFFF",
             "info": "#ffffff",
             "success": "#00ffff",
             "warning": "#ffffff",
