@@ -1,4 +1,5 @@
 import LeftSidebar from "@/components/LeftSidebar/LeftSidebar";
+import RightSidebar from "@/components/RightSidebar/RightSidebar";
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
 
         </div>
         <div className="max-w-[88px] w-full sticky z-10 top-5">
-          <div className="rounded-xl bg-base-100 p-6"></div>
+          <RightSidebar />
         </div>
       </div>
     </section>
