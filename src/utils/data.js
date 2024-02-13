@@ -74,6 +74,7 @@ export const personalData = {
             title: 'WordPress',
             value: 80
         },
-    ]
+    ],
+    extraSkill: ["Bootstrap", "Tailwind", "Git", "NodeJS", "Elementor", "ExpressJs", "MongoBD"]
 
 }

@@ -15,6 +15,11 @@ export default function Skill({ data }) {
                 </div>)}
             </div>
             <hr />
+            <h3 className="mt-5">Extra Skill</h3>
+            <div className="my-5 flex flex-wrap gap-1">
+                {data.extraSkill.map(item => <span key={Math.random()} className="py-[2px] text-[12px] px-[10px] hover:bg-secondary text-center rounded-xl">{item}</span>)}
+            </div>
+            <hr />
         </div>
     )
 }
