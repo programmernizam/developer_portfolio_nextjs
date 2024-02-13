@@ -42,6 +42,9 @@ export default function PersonalDetails() {
                 <FaLinkedinIn className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
                 <FaGithub className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
             </div>
+            <div>
+
+            </div>
         </div>
     )
 }
