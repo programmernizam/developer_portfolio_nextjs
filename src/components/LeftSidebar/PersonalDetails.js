@@ -17,7 +17,7 @@ export default function PersonalDetails({ data }) {
                 <p className=' mt-3 text-center'><span className='text-[14px] bg-secondary/15 inline-block px-5 text-primary rounded-full font-medium'>{data.designation}</span></p>
             </div>
             {/* Social Media */}
-            <div className='flex items-center justify-center gap-4'>
+            <div className='flex items-center justify-center gap-5'>
                 <FaFacebookF className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
                 <AiFillInstagram className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
                 <FaTwitter className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
