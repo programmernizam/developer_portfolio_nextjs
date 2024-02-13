@@ -2,56 +2,8 @@ import person from '@/assets/profile.jpg';
 import Image from "next/image";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+export default function PersonalDetails({ data }) {
 
-const devInfo = {
-    name: 'MD Nizam Uddin',
-    designation: 'Fronted Developer',
-    fbLink: '#',
-    twLink: '#',
-    ldLink: '#',
-    igLink: '#',
-    ghLink: '#',
-    info: [
-        {
-            id: 1,
-            name: 'Email',
-            title: "mdnizam12109@gmail.com",
-        },
-        {
-            id: 2,
-            name: 'Phone',
-            title: '+880 163 8548 900',
-        },
-        {
-            id: 3,
-            name: 'Residence',
-            title: 'Bangladesh',
-        },
-        {
-            id: 4,
-            name: 'City',
-            title: 'Chandpur',
-        },
-        {
-            id: 5,
-            name: 'Age',
-            title: '22',
-        },
-        {
-            id: 6,
-            name: 'Freelance',
-            title: 'Available',
-        },
-        {
-            id: 7,
-            name: 'Language',
-            title: 'English, Bangla'
-        }
-    ]
-
-
-}
-export default function PersonalDetails() {
     return (
         <div>
             {/* Profile Avatar Image */}
@@ -61,8 +13,8 @@ export default function PersonalDetails() {
             </div>
             {/* Profile Info */}
             <div className='my-5'>
-                <h2 className='text-xl font-semibold text-center'>{devInfo.name}</h2>
-                <p className=' mt-3 text-center'><span className='text-[14px] bg-secondary/15 inline-block px-5 text-primary rounded-full font-medium'>{devInfo.designation}</span></p>
+                <h2 className='text-xl font-semibold text-center'>{data.name}</h2>
+                <p className=' mt-3 text-center'><span className='text-[14px] bg-secondary/15 inline-block px-5 text-primary rounded-full font-medium'>{data.designation}</span></p>
             </div>
             {/* Social Media */}
             <div className='flex items-center justify-center gap-4'>
@@ -73,7 +25,7 @@ export default function PersonalDetails() {
                 <FaGithub className='text-paragraph text-[16px] hover:text-secondary cursor-pointer' />
             </div>
             <div className='mt-5'>
-                {devInfo.info.map(item => <ul key={item.id} className='flex justify-between items-center mt-3'>
+                {data.info.map(item => <ul key={item.id} className='flex justify-between items-center mt-3'>
                     <li className='text-[14px] font-normal text-heading'>
                         {item.name}:
                     </li>
