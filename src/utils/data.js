@@ -75,6 +75,7 @@ export const personalData = {
             value: 80
         },
     ],
-    extraSkill: ["Bootstrap", "Tailwind", "Git", "NodeJS", "Elementor", "ExpressJs", "MongoBD"]
+    extraSkill: ["Bootstrap", "Tailwind", "Git", "NodeJS", "Elementor", "ExpressJs", "MongoBD"],
+    resume: '#'
 
 }

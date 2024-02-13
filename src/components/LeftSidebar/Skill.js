@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { IoCloudDownloadOutline } from "react-icons/io5";
+
 export default function Skill({ data }) {
     return (
         <div className="mt-5">
@@ -20,6 +23,8 @@ export default function Skill({ data }) {
                 {data.extraSkill.map(item => <span key={Math.random()} className="py-[2px] text-[12px] px-[10px] hover:bg-secondary text-center rounded-xl">{item}</span>)}
             </div>
             <hr />
+            <Link href={data.resume} className="bg-primary px-8 py-4 mt-5 rounded-xl font-medium uppercase flex items-center justify-between">Download My CV <IoCloudDownloadOutline />
+            </Link>
         </div>
     )
 }
