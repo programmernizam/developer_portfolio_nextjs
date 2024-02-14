@@ -1,4 +1,5 @@
 import LeftSidebar from "@/components/LeftSidebar/LeftSidebar";
+import Main from "@/components/Main/Main";
 import RightSidebar from "@/components/RightSidebar/RightSidebar";
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
           <LeftSidebar />
         </div>
         <div className="w-full bg-base-100 p-6">
-
+          <Main />
         </div>
         <div className="max-w-[88px] w-full sticky z-10 top-5">
           <RightSidebar />
