@@ -5,27 +5,27 @@ import { IoChatboxEllipses } from "react-icons/io5";
 
 const menuItems = [
     {
-        id: "home",
+        id: "#home",
         icon: <HiHome />,
     },
     {
-        id: "code",
+        id: "#code",
         icon: <HiMiniCodeBracketSquare />,
     },
     {
-        id: "book",
+        id: "#book",
         icon: <FaBookOpen />,
     },
     {
-        id: "briefcase",
+        id: "#briefcase",
         icon: <FaBriefcase />,
     },
     {
-        id: "file",
+        id: "#file",
         icon: <FaFileAlt />,
     },
     {
-        id: "chat",
+        id: "#chat",
         icon: <IoChatboxEllipses />,
     },
 ];
