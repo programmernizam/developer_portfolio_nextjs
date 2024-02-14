@@ -2,8 +2,11 @@ import { FaBookOpen, FaBriefcase, FaFileAlt } from "react-icons/fa";
 import { HiHome, HiMiniCodeBracketSquare } from "react-icons/hi2";
 import { IoChatboxEllipses } from "react-icons/io5";
 
-
-
+const menu = [
+    {
+        id: "home",
+    }
+]
 
 export default function Menu() {
     return (
