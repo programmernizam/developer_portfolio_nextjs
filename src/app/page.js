@@ -9,7 +9,7 @@ export default function Home() {
         <div className="max-w-[300px] w-full sticky top-5 z-10">
           <LeftSidebar />
         </div>
-        <div className="w-full bg-base-100 p-6">
+        <div className="w-full">
           <Main />
         </div>
         <div className="min-w-[88px] h-[calc(100vh-2rem)] bg-base-100 py-5 rounded-xl scrollbarStyle sticky top-5 mb-10 z-10">
