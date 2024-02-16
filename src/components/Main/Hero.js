@@ -9,7 +9,7 @@ export default function Hero() {
       <div className='w-full md:max-w-[260px] lg:max-w-[460px]'>
         <h1 className='text-3xl xl:text-5xl font-semibold text-center text-heading md:text-start leading-9 xl:leading-[56px]'>I design products that delight and inspire people.
         </h1>
-        <p>A Product Designer and Visual Developer in SF. I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
+        <p className="mt-4 mb-6 xl:my-6 text-paragraph xl:text-lg text-base-content/60 text-center md:text-start leading-6 xl:leading-7">A Product Designer and Visual Developer in SF. I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
         <button className='flex justify-center md:justify-start items-center bg-primary pl-6 py-1.5 rounded-full pr-1.5'>
           <Link href="#" className="mr-4 font-medium">LETS TALK
           </Link>
@@ -19,7 +19,7 @@ export default function Hero() {
         </button>
       </div>
       <div className='hidden md:block flex-none'>
-        <Image src={person} alt="Person" />
+        <Image width={350} height={492} className='h-full' src={person} alt="Person" />
       </div>
     </div>
   )
