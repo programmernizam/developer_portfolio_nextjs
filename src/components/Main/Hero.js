@@ -5,7 +5,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Hero() {
   return (
-    <div className="max-h-[492px] bg-base-100 p-6 sm:p-10 xl:p-16 rounded-xl flex items-center justify-center md:justify-between">
+    <div className="max-h-[492px] bg-base-100 p-6 sm:p-10 xl:p-16 rounded-xl flex items-center justify-center md:justify-between" id='home'>
       <div className='w-full md:max-w-[260px] lg:max-w-[460px]'>
         <h1 className='text-3xl xl:text-5xl font-semibold text-center text-heading md:text-start leading-9 xl:leading-[56px]'>I design products that delight and inspire people.
         </h1>

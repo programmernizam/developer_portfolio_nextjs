@@ -84,42 +84,42 @@ export const services = [
     {
         "id": "01",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": "02",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": "03",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": "04",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": "05",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
         "id": "06",
         "title": "Web Development",
-        "service": ["Frontend Development", "Backend Development", "Backend Development"],
+        "services": ["Frontend Development", "Backend Development", "Backend Development"],
         "des_title": "Advertising",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },

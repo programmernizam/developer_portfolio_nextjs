@@ -9,11 +9,11 @@ const menuItems = [
         icon: <HiHome />,
     },
     {
-        id: "#code",
+        id: "#services",
         icon: <HiMiniCodeBracketSquare />,
     },
     {
-        id: "#book",
+        id: "#about",
         icon: <FaBookOpen />,
     },
     {
