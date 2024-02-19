@@ -1,7 +1,11 @@
 import Hero from "./Hero";
+import Services from "./Services";
 
 export default function Main() {
     return (
-        <div><Hero /></div>
+        <div>
+            <Hero />
+            <Services />
+        </div>
     )
 }
