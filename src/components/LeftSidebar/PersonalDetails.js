@@ -7,9 +7,9 @@ export default function PersonalDetails({ data }) {
     return (
         <div>
             {/* Profile Avatar Image */}
-            <div class="relative w-fit mx-auto">
-                <Image width={100} height={100} src={person} alt="person" class="rounded-full object-contain" />
-                <span class="bottom-0 right-3 border-primary border-2 absolute  w-5 h-5 bg-green-500 rounded-full"></span>
+            <div className="relative w-fit mx-auto">
+                <Image width={100} height={100} src={person} alt="person" className="rounded-full object-contain" />
+                <span className="bottom-0 right-3 border-primary border-2 absolute  w-5 h-5 bg-green-500 rounded-full"></span>
             </div>
             {/* Profile Info */}
             <div className='my-5'>
