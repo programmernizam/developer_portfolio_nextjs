@@ -125,26 +125,49 @@ export const services = [
     },
 ]
 
+export const experience = [
+    {
+        id: "1001",
+        "title": "Lead Web Designer",
+        "university": "Google Inc",
+        "year": "Jan 2022 - Dec 2023",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+    {
+        id: "1002",
+        "title": "Full-Stack Web Developer",
+        "university": "Microsoft",
+        "year": "Dec 2020 - Dec 2021",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+    {
+        id: "1003",
+        "title": "Frontend Web Developer",
+        "university": "Facebook",
+        "year": "Jan 1018 - Dec 2020",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+]
 export const education = [
     {
         id: "001",
         "title": "Certificate of web training",
         "university": "University of Toronto",
-        "year": "Jan 1016 - Dec 2021",
+        "year": "Jan 2016 - Dec 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
     },
     {
         id: "002",
         "title": "Certificate of web training",
         "university": "University of Toronto",
-        "year": "Jan 1016 - Dec 2021",
+        "year": "Jan 2016 - Dec 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
     },
     {
         id: "003",
         "title": "Certificate of web training",
         "university": "University of Toronto",
-        "year": "Jan 1016 - Dec 2021",
+        "year": "Jan 2016 - Dec 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
     },
 ]
