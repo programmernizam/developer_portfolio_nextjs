@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section className="max-w-[1470px] w-full mx-auto pt-8 relative">
       <div className="flex gap-8">
-        <div className="max-w-[300px] w-full sticky top-5 z-10">
+        <div className="max-w-[300px] w-full sticky top-5 z-10  h-[calc(100vh-2rem)]">
           <LeftSidebar />
         </div>
         <div className="w-full">
