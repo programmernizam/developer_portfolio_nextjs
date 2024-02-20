@@ -124,3 +124,27 @@ export const services = [
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
 ]
+
+export const education = [
+    {
+        id: "001",
+        "title": "Certificate of web training",
+        "university": "University of Toronto",
+        "year": "Jan 1016 - Dec 2021",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+    {
+        id: "002",
+        "title": "Certificate of web training",
+        "university": "University of Toronto",
+        "year": "Jan 1016 - Dec 2021",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+    {
+        id: "003",
+        "title": "Certificate of web training",
+        "university": "University of Toronto",
+        "year": "Jan 1016 - Dec 2021",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+]
