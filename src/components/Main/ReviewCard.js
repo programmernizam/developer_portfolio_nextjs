@@ -1,4 +1,5 @@
 import Image from "next/image"
+import StarRatings from "react-star-ratings"
 
 export default function ReviewCard({ item }) {
     const { name, designation, img, review, ratting } = item
@@ -15,7 +16,13 @@ export default function ReviewCard({ item }) {
                     <p className="text-sm text-paragraph">{designation}</p>
                 </div>
             </div>
-            <p className="mt-6 text-base text-paragraph">{review}</p>
+            <p className="my-6 text-base text-paragraph">{review}</p>
+            <StarRatings
+                starRatedColor="#EA7C2B"
+                rating={ratting}
+                starDimension="18px"
+                starSpacing="4px"
+            />
         </div>
     )
 }

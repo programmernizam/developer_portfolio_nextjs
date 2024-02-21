@@ -1,4 +1,5 @@
-import { default as person1, default as person2 } from '@/assets/person-1.png'
+import person1 from '@/assets/person-1.png'
+import person2 from '@/assets/person-2.png'
 import person3 from '@/assets/person-3.png'
 import project1 from '@/assets/project-1.png'
 import project2 from '@/assets/project-2.png'
@@ -235,5 +236,5 @@ export const testimonial = [
         "img": person3,
         "review": "The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.",
         "ratting": 5,
-    },
+    }
 ]
