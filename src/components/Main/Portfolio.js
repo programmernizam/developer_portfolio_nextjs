@@ -1,5 +1,7 @@
 "use client"
 import { portfolio } from "@/utils/data";
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import CommonTitle from "./CommonTitle";
 
@@ -19,7 +21,16 @@ export default function Portfolio() {
                 <button onClick={() => setSelectedCategory('Branding')} className="text-base font-medium text-base-content/60 hover:text-primary hover:duration-300 transition">Branding</button>
                 <button onClick={() => setSelectedCategory('Logo')} className="text-base font-medium text-base-content/60 hover:text-primary hover:duration-300 transition">Logo</button>
             </div>
-            
+            <div className="mt-8 md:mt-12">
+                <div className="grid grid-cols-2 xl:grid-cols-3 gap-3 md:gap-6">
+                    {filteredPortfolio.map(project => (
+                        <div key={project.id} className="relative group">
+                            <Image src={project.img} alt={`Project ${project.id}`} className="w-full rounded-xl" />
+                            <Link href="#home" className="bg-primary/80 w-full h-full absolute top-0 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition group-hover:duration-500"></Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
         </section>
     )
 }
