@@ -3,7 +3,9 @@ import { portfolio } from "@/utils/data";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaPlus } from "react-icons/fa6";
 import CommonTitle from "./CommonTitle";
+
 
 export default function Portfolio() {
     const [selectedCategory, setSelectedCategory] = useState('all');
@@ -26,7 +28,9 @@ export default function Portfolio() {
                     {filteredPortfolio.map(project => (
                         <div key={project.id} className="relative group">
                             <Image src={project.img} alt={`Project ${project.id}`} className="w-full rounded-xl" />
-                            <Link href="#home" className="bg-primary/80 w-full h-full absolute top-0 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition group-hover:duration-500"></Link>
+                            <Link href="#home" className="bg-primary/80 w-full h-full absolute top-0 rounded-xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition group-hover:duration-500">
+                                <FaPlus className="text-[30px]"/>
+                            </Link>
                         </div>
                     ))}
                 </div>
