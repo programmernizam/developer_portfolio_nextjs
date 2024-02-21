@@ -3,6 +3,7 @@ import Experience from "./Experience";
 import Hero from "./Hero";
 import Portfolio from "./Portfolio";
 import Services from "./Services";
+import Testimonial from "./Testimonial";
 
 export default function Main() {
     return (
@@ -12,6 +13,7 @@ export default function Main() {
             <Education />
             <Experience />
             <Portfolio />
+            <Testimonial />
         </div>
     )
 }
