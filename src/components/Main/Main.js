@@ -1,6 +1,7 @@
 import Education from "./Education";
 import Experience from "./Experience";
 import Hero from "./Hero";
+import Portfolio from "./Portfolio";
 import Services from "./Services";
 
 export default function Main() {
@@ -10,6 +11,7 @@ export default function Main() {
             <Services />
             <Education />
             <Experience />
+            <Portfolio />
         </div>
     )
 }

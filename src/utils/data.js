@@ -1,3 +1,9 @@
+import project1 from '@/assets/project-1.png'
+import project2 from '@/assets/project-2.png'
+import project3 from '@/assets/project-3.png'
+import project4 from '@/assets/project-4.png'
+import project5 from '@/assets/project-5.png'
+import project6 from '@/assets/project-6.png'
 export const personalData = {
     name: 'MD Nizam Uddin',
     designation: 'Fronted Developer',
@@ -169,5 +175,37 @@ export const education = [
         "university": "University of Toronto",
         "year": "Jan 2016 - Dec 2021",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc, egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc."
+    },
+]
+export const portfolio = [
+    {
+        id: "1001",
+        "img": project1,
+        "category": "Web Templates"
+    },
+    {
+        id: "1002",
+        "img": project2,
+        "category": "UI Design"
+    },
+    {
+        id: "1003",
+        "img": project3,
+        "category": "Branding"
+    },
+    {
+        id: "1004",
+        "img": project4,
+        "category": "Web Templates"
+    },
+    {
+        id: "1005",
+        "img": project5,
+        "category": "Web Templates"
+    },
+    {
+        id: "1006",
+        "img": project6,
+        "category": "Logo"
     },
 ]

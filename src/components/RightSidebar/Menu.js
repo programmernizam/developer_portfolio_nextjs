@@ -17,7 +17,7 @@ const menuItems = [
         icon: <FaBookOpen />,
     },
     {
-        id: "#briefcase",
+        id: "#portfolio",
         icon: <FaBriefcase />,
     },
     {
