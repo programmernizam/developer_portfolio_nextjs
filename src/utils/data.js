@@ -1,3 +1,5 @@
+import { default as person1, default as person2 } from '@/assets/person-1.png'
+import person3 from '@/assets/person-3.png'
 import project1 from '@/assets/project-1.png'
 import project2 from '@/assets/project-2.png'
 import project3 from '@/assets/project-3.png'
@@ -207,5 +209,31 @@ export const portfolio = [
         id: "1006",
         "img": project6,
         "category": "Logo"
+    },
+]
+export const testimonial = [
+    {
+        id: "2001",
+        "name": "John Smith",
+        "designation": "Software Engineer",
+        "img": person1,
+        "review": "The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.",
+        "ratting": 5,
+    },
+    {
+        id: "2002",
+        "name": "John Smith",
+        "designation": "Software Engineer",
+        "img": person2,
+        "review": "The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.",
+        "ratting": 5,
+    },
+    {
+        id: "2003",
+        "name": "John Smith",
+        "designation": "Software Engineer",
+        "img": person3,
+        "review": "The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.",
+        "ratting": 5,
     },
 ]
