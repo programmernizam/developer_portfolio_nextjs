@@ -3,8 +3,10 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import CommonTitle from "./CommonTitle";
 
 // Import Swiper styles
+import { testimonial } from '@/utils/data';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import ReviewCard from './ReviewCard';
 
 // import required modules
 
@@ -34,7 +36,7 @@ export default function Testimonial() {
                     }}
                     className="mySwiper"
                 >
-                    <SwiperSlide>Slide 1</SwiperSlide>
+                    <SwiperSlide>{testimonial.map(item => <ReviewCard key={item.id} item={item} />)}</SwiperSlide>
                 </Swiper>
             </div>
         </section >
