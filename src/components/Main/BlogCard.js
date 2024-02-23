@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa6";
 
 export default function BlogCard({ blog }) {
     const { title, description, img } = blog;
@@ -11,6 +12,7 @@ export default function BlogCard({ blog }) {
                 <p className="mt-2 mb-4 text-base text-paragraph">{description}</p>
                 <Link href={"#"} className="text-primary text-sm font-semibold flex items-center gap-3 hover:opacity-80 transition hover:duration-300">
                     Read More
+                    <FaArrowRight />
                 </Link>
             </div>
         </div>

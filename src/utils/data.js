@@ -1,4 +1,4 @@
-import news1 from '@/assets/news-1.png'
+import news1 from '@/assets/blog.webp'
 import person1 from '@/assets/person-1.png'
 import person2 from '@/assets/person-2.png'
 import person3 from '@/assets/person-3.png'
