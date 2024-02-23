@@ -1,3 +1,4 @@
+import news1 from '@/assets/news-1.png'
 import person1 from '@/assets/person-1.png'
 import person2 from '@/assets/person-2.png'
 import person3 from '@/assets/person-3.png'
@@ -236,5 +237,25 @@ export const testimonial = [
         "img": person3,
         "review": "The customer service team was incredibly helpful and went above and beyond to ensure that I had a positive experience with this company.",
         "ratting": 5,
+    }
+]
+export const blogs = [
+    {
+        id: '3001',
+        title: "How to make web templates",
+        description: "Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...",
+        img: news1
+    },
+    {
+        id: '3002',
+        title: "How to make web templates",
+        description: "Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...",
+        img: news1
+    },
+    {
+        id: '3003',
+        title: "How to make web templates",
+        description: "Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...",
+        img: news1
     }
 ]
