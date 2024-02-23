@@ -21,11 +21,11 @@ const menuItems = [
         icon: <FaBriefcase />,
     },
     {
-        id: "#file",
+        id: "#blogs",
         icon: <FaFileAlt />,
     },
     {
-        id: "#chat",
+        id: "#contact",
         icon: <IoChatboxEllipses />,
     },
 ];

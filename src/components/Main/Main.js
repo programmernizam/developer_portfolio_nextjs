@@ -1,4 +1,5 @@
 import Blogs from "./Blogs";
+import Contact from "./Contact";
 import Education from "./Education";
 import Experience from "./Experience";
 import Hero from "./Hero";
@@ -16,6 +17,7 @@ export default function Main() {
             <Portfolio />
             <Testimonial />
             <Blogs />
+            <Contact />
         </div>
     )
 }
