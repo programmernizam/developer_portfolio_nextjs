@@ -19,7 +19,12 @@ export default function ContactForm() {
                     </p>
                     <input type="text" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12" />
                 </div>
-                <div className="w-full"></div>
+                <div className="w-full">
+                    <p className="text-sm text-paragraph pb-2">
+                        Message
+                    </p>
+                    <textarea className="w-full bg-base-200 rounded-lg outline-none p-5 h-36 lg:h-52"></textarea>
+                </div>
             </form>
         </div>
     )
