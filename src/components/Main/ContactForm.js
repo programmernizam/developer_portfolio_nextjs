@@ -19,6 +19,7 @@ export default function ContactForm() {
                     </p>
                     <input type="text" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12" />
                 </div>
+                <div className="w-full"></div>
             </form>
         </div>
     )
