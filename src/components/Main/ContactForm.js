@@ -13,6 +13,9 @@ export default function ContactForm() {
                         <input type="email" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12" />
                     </div>
                 </div>
+                <div className="w-full py-5">
+                    
+                </div>
             </form>
         </div>
     )
