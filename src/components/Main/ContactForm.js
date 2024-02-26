@@ -14,7 +14,10 @@ export default function ContactForm() {
                     </div>
                 </div>
                 <div className="w-full py-5">
-                    
+                    <p className="text-sm text-base-paragraph pb-2">
+                        Subject
+                    </p>
+                    <input type="text" className="w-full bg-base-200 rounded-lg outline-none px-4 h-12" />
                 </div>
             </form>
         </div>
