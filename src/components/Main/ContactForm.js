@@ -25,6 +25,7 @@ export default function ContactForm() {
                     </p>
                     <textarea className="w-full bg-base-200 rounded-lg outline-none p-5 h-36 lg:h-52"></textarea>
                 </div>
+                <button className="rounded-lg bg-primary text-base font-medium text-heading px-5 py-3 mt-6">Send Message</button>
             </form>
         </div>
     )
