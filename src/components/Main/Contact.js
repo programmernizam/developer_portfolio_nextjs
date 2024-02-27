@@ -1,5 +1,6 @@
 import CommonTitle from "./CommonTitle";
 import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
 
 export default function Contact() {
     return (
@@ -7,6 +8,7 @@ export default function Contact() {
             <CommonTitle title={"Get In Touch"} description={"Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. lorem ipsum"} />
             <div className="flex flex-wrap md:flex-nowrap lg:grid lg:grid-cols-7 md:gap-6 mt-12">
                 <ContactForm />
+                <ContactInfo />
             </div>
         </section>
     )
