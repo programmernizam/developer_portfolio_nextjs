@@ -8,6 +8,8 @@ import project3 from '@/assets/project-3.png'
 import project4 from '@/assets/project-4.png'
 import project5 from '@/assets/project-5.png'
 import project6 from '@/assets/project-6.png'
+import { FaEnvelope, FaMap, FaMobile } from "react-icons/fa"
+
 export const personalData = {
     name: 'MD Nizam Uddin',
     designation: 'Fronted Developer',
@@ -258,4 +260,37 @@ export const blogs = [
         description: "Lorem ipsum dolor sit amet diam ac consectetur adipiscing elit...",
         img: news1
     }
+]
+
+export const contactInfo = [
+    {
+        id: "4001",
+        icon: <FaMap />,
+        name1: 'Country:',
+        title1: 'Bangladesh',
+        name2: 'City:',
+        title2: 'Dhaka',
+        name3: 'Street:',
+        title3: "Niketon, Dhaka"
+    },
+    {
+        id: "4002",
+        icon: <FaEnvelope />,
+        name1: 'Email:',
+        title1: 'info.mdnizamuddin@gmail.com',
+        name2: 'Skype:',
+        title2: '@yourusername',
+        name3: 'Telegram:',
+        title3: "@yourusername"
+    },
+    {
+        id: "4003",
+        icon: <FaMobile />,
+        name1: "Support:",
+        title1: '12345',
+        name2: "Office:",
+        title2: '+880 1638548900',
+        name3: "Personal:",
+        title3: "+880 1612359620"
+    },
 ]
