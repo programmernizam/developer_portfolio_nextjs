@@ -277,7 +277,7 @@ export const contactInfo = [
         id: "4002",
         icon: <FaEnvelope />,
         name1: 'Email:',
-        title1: 'info.mdnizamuddin@gmail.com',
+        title1: 'mdnizam12109@gmail.com',
         name2: 'Skype:',
         title2: '@yourusername',
         name3: 'Telegram:',

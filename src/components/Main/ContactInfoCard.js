@@ -10,6 +10,14 @@ export default function ContactInfoCard({ info }) {
                     <p className="text-sm text-base-content">{name1}</p>
                     <span className="text-sm text-paragraph">{title1}</span>
                 </div>
+                <div className="flex items-center justify-between">
+                    <p className="text-sm text-base-content">{name2}</p>
+                    <span className="text-sm text-paragraph">{title2}</span>
+                </div>
+                <div className="flex items-center justify-between">
+                    <p className="text-sm text-base-content">{name3}</p>
+                    <span className="text-sm text-paragraph">{title3}</span>
+                </div>
             </div>
         </div>
     )
