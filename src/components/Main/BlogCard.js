@@ -11,7 +11,7 @@ export default function BlogCard({ blog }) {
                 <h3 className="text-lg font-semibold text-heading hover:text-primary hover:duration-300 transition">{title}</h3>
                 <p className="mt-2 mb-4 text-base text-paragraph">{description}</p>
                 <Link href={"#"} className="text-primary text-sm font-semibold flex items-center gap-3 hover:opacity-80 transition hover:duration-300">
-                    Read More
+                    Read Mor
                     <FaArrowRight />
                 </Link>
             </div>
