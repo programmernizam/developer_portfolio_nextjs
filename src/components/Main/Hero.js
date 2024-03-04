@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className='text-3xl xl:text-5xl font-semibold text-center text-heading md:text-start leading-9 xl:leading-[56px]'>I design products that delight and inspire people.
         </h1>
         <p className="mt-4 mb-6 xl:my-6 text-paragraph xl:text-lg text-base-content/60 text-center md:text-start leading-6 xl:leading-7">A Product Designer and Visual Developer in SF. I specialize in UI/UX Design, Responsive Web Design, and Visual Development.</p>
-        <button className='flex justify-center md:justify-start items-center bg-primary pl-6 py-1.5 rounded-full pr-1.5'>
+        <button className='flex justify-center md:justify-start items-center mx-auto md:mx-0 bg-primary pl-6 py-1.5 rounded-full pr-1.5'>
           <Link href="#" className="mr-4 font-medium">LETS TALK
           </Link>
           <span className='p-2 bg-heading rounded-full'>
